@@ -17,7 +17,7 @@ def main():
         open(transaction_log, 'w').close()
 
     # load headless webdriver
-    browser = webdriver.PhantomJS('phantomjs.exe')
+    browser = webdriver.PhantomJS('phantomjs')
 
     # The following lines get the website to login,enter account details in the form and press submit button
     browser.get('https://www.govia.com.au/web/ssp/login/-/login/Login?')
